@@ -212,7 +212,7 @@ func (a Address) Hex() string {
 			result[i] -= 32
 		}
 	}
-	return "0x" + string(result)
+	return "pa" + string(result)
 }
 
 // String implements fmt.Stringer.
